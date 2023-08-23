@@ -1,0 +1,179 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'RB';
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+.container-full{
+    max-width: 1400px;
+    width: 100%;
+    margin: 0 auto;
+}
+.container {
+    max-width: 1140px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.header__nav {
+    background: #FFF;
+    padding: 25px 0;
+}
+
+.header__nav-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__nav-list {
+    display: flex;
+    gap: 40px;
+}
+
+.header__nav-link {
+    font-size: 18px;
+    color: #3A3838;
+    transition: 500ms;
+}
+
+.header__nav-link:hover {
+    color: #EF4423;
+}
+
+.main-content {
+    display: flex;
+}
+
+.header__content-item {
+    width: 25%;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.header__content-item h2 {
+    color: #FFF;
+    font-family: 'RB';
+    font-size: 19px;
+    padding: 4px 8px 8px 8px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.header__content-item img {
+    flex-grow: 1;
+}
+
+.header__content-item p {
+    color: #EBEBEB;
+    font-family: 'RR';
+    font-size: 16px;
+    padding: 0 8px 8px 8px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.header__content-box {
+    background: #B71C1C;
+}
+
+.header__content-nav {
+    background: #6A1B9A;
+}
+
+.header__content-flex {
+    background: #303F9F;
+}
+
+.header__content-div {
+    background: #00695C;
+}
+
+.main-content img {
+    width: 100%;
+}
+
+h1 {
+    display: flex;
+   justify-content: center;
+   align-items: center;
+   padding: 50px 0 0 0;
+   color: #3A3838;
+   font-family: 'RB';
+   font-size: 22px;
+}
+.main{
+    padding: 50px 0;
+}
+.main__nav-top {
+    background: #EDEDED;
+    width: 1400px;
+    height: 531px;
+    flex-shrink: 0;
+    display: flex;
+}
+
+.main__nav{
+     background: #EDEDED;
+}
+ 
+.main__right {
+    padding: 20px 30px 30px 30px;
+    padding-bottom: 30px;
+}
+
+.main__right h2 {
+    color: #3A3838;
+    font-family: 'RB';
+    font-size: 22px;
+    padding-bottom: 30px;
+    
+}
+
+.main__right p {
+    color: #686868;
+    font-family: 'RB';
+    font-size: 18px;
+    width: 540px;
+   
+}
+
+.footer__nav {
+    background: #3A3838;
+}
+
+.footer__nav-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+
+.footer__nav-list {
+   display: flex;
+    gap: 40px;
+    padding: 53px;
+}
+
+.footer__nav-link {
+    color: #FFF;
+    text-align: right;
+    font-family: 'RB';
+    font-size: 18px;
+    transition: 500ms;
+}
+
+.footer__nav-link:hover {
+    color: #EF4423;
+}
